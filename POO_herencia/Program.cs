@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using POO_herencia;
 
+Triangulo t = new Triangulo(23, 18);
+Console.WriteLine("Area: " + t.area());
+Console.ReadKey();
